@@ -1,0 +1,120 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    /*background-color: rgb(40, 42, 54);
+    color: white;*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    --cor-cinza-claro: rgb(52, 55, 70);
+    --cor-cinza-medio: rgb(40, 42, 54);
+    --cor-cinza-escuro: rgb(33, 34, 44);
+    --cor-cinza-maisescuro: rgb(25, 26, 33);
+    --cor-verde-medio: rgb(92, 172, 92);
+    --cor-verde-claro: rgb(16, 180, 16);
+}
+
+.center{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 2%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header{
+    background-color: var(--cor-cinza-medio);
+    padding: 20px 0;
+    border-bottom: 2px solid var(--cor-cinza-escuro);
+}
+
+.logo{
+    color: var(--cor-verde-medio);
+}
+
+.menu{
+    width: 80%;
+    text-align: right;
+}
+
+.menu a{
+    color: var(--cor-verde-medio);
+    font-size: 14px;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.menu a:hover{
+    color: var(--cor-verde-claro);
+    background-color: var(--cor-cinza-escuro);
+}
+
+/*
+Section Main
+*/
+
+section.main{
+    background-image: url(img/banner.jpg);
+    padding: 70px 0;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+}
+
+.main_cta{
+    width: 100%;
+    text-align: center;
+}
+
+.main_cta h2{
+    color: var(--cor-verde-medio);
+    font-size: 40px;
+}
+
+.main_cta p{
+    color: white;
+    font-size: 19px;
+    margin: 10px 0;
+}
+
+.main_cta button{
+    background-color: var(--cor-verde-medio);
+    display: inline-block;
+    padding: 8px 16px;
+    color: white;
+    border-radius: 6px;
+    font-size: 22px;
+    border: 0;
+}
+
+.diferenciais{
+    display: flex;
+    justify-content: center;
+}
+
+.diferenciais .single{
+    border-radius: 10px;
+    background-color: var(--cor-cinza-medio);
+    width: 23%;
+    margin-right: 2%;
+    padding: 50px 20px;
+}
+
+.diferenciais .single i{
+    color: var(--cor-verde-medio);
+    font-size: 23px;
+}
+
+.diferenciais .single h2{
+    color: var(--cor-verde-medio);
+    margin: 10px 0;
+    font-size: 17px;
+}
+
+.diferenciais .single p {
+    color: white;
+    font-size: 14px;
+    line-height: 30px;
+}
+
